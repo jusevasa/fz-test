@@ -40,3 +40,16 @@ yarn coverage
 ```
 yarn cypress
 ```
+
+
+## Tools 🔨
+
+* React
+* TypeScript
+* Vite
+* Tailwind
+* Axios
+* Cypress
+* Testing Library
+* Jest
+* CI/CD Github Actions
