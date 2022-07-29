@@ -19,10 +19,11 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "types": ["cypress", "node"]
+    "types": ["jest", "node", "cypress"],
   },
   "references": [{ "path": "./tsconfig.node.json" }],
-  "exclude": ["**/*.spec.ts"],
+  "include": ["src/*.ts"],
+  "exclude": ["src/*.test.ts"],
   "jest": {
     "verbose": true,
     "moduleDirectories": ["node_modules", "src"],
