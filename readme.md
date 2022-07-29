@@ -17,7 +17,7 @@ View             |  Search
 ```
 yarn install
 ```
-2. copy .env.example and remove the text (example) for generate the variables
+2. copy .env.example and remove the text .example for generate the variables
 
 3. run dev server
 ```
